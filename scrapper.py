@@ -1,11 +1,12 @@
+import requests
+from bs4 import BeautifulSoup
+import sqlite3
+
 #python -m pip install requests
 # => get data from web (html, json, xml)
 #python -m pip install beautifulsoup4
 # =>parse html
 
-import requests
-from bs4 import BeautifulSoup
-import sqlite3
 
 URL = "http://books.toscrape.com/"
 
